@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* Mobile-first cards */
+.card {
+  background: #1e293b;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+/* Responsive */
+@media(min-width:768px){
+  .container{
+    max-width:600px;
+    margin:auto;
+  }
+}
